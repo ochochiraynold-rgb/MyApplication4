@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#FFEB3B">
 
     <!-- Top Row -->
     <LinearLayout
@@ -13,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#2196F3">
 
         <!-- A -->
         <TextView
@@ -34,10 +36,10 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFF176"
+            android:background="#4CAF50"
             android:padding="8dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/Person"/>
+            android:src="@drawable/merino"/>
 
         <!-- B -->
         <TextView
@@ -45,7 +47,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#4CAF50"
+            android:background="#FFEB3B"
             android:gravity="center"
             android:text="B"
             android:textColor="#FFFFFF"
@@ -62,7 +64,7 @@
         android:layout_weight="5"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:background="#BBDEFB">
+        android:background="#4CAF50">
 
         <!-- Image -->
         <ImageView
@@ -70,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
-            android:src="@drawable/Person"/>
+            android:src="@drawable/merino"/>
 
         <!-- Floating Name -->
         <TextView
@@ -81,10 +83,10 @@
             android:layout_marginBottom="20dp"
             android:background="#80000000"
             android:padding="8dp"
-            android:text="EMMANUEL"
+            android:text="PRUDENCE"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
     </FrameLayout>
 
@@ -94,7 +96,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:background="#C8E6C9"
+        android:background="#FFEB3B"
         android:hint="Type your name"
         android:inputType="textPersonName"
         android:padding="12dp"/>
